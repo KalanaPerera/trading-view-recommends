@@ -1,13 +1,15 @@
-# Trading view stats parser
+# Trading view stats parser serverless
 
 Written on NodeJS with typescript
 
+
 This package is fully compatible with original python lib: [deathlyface/python-tradingview-ta](https://github.com/deathlyface/python-tradingview-ta).
+Node Js version from here: https://github.com/tvorilas/trading-view-recommends-parser-nodejs
 
 ## Install
 
 ```
-npm i trading-view-recommends-parser-nodejs
+npm i trading-view-recommends
 ```
 
 ## Usage
@@ -18,7 +20,7 @@ import {
   SCREENERS_ENUM,
   EXCHANGES_ENUM,
   INTERVALS_ENUM,
-} from 'trading-view-recommends-parser-nodejs';
+} from 'trading-view-recommends';
 
 const result = await new TradingViewScan(
   SCREENERS_ENUM['crypto'],
